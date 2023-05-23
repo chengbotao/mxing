@@ -4,11 +4,12 @@
 -->
 <script setup lang="ts">
 import { ref } from 'vue';
+import router from "../router/index";
 
 const phone = ref("");
 
 const handleClick = () => {
-  console.log("点击登录")
+    router.push("/home")
 };
 </script>
 
